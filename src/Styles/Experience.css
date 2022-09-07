@@ -1,0 +1,60 @@
+.exp-top {
+    height: 30vh;
+}
+
+.left-exp {
+    width: 39vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.right-exp {
+    width: 39vw;
+    height: 100%;
+}
+
+.exp-bottom {
+    height: 60vh;
+    width: 100%;
+}
+
+.exp-bottom-left {
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly !important;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .experience {
+        padding-top: 1rem;
+    }
+
+    .neu-btn-1 {
+        width: 90vw !important;
+    }
+
+    .neu-btn-2 {
+        width: 20vw !important;
+    }
+
+    .left-exp {
+        width: 70vw;
+    }
+
+    .exp-top {
+        height: 25vh;
+    }
+
+    .chart--item {
+        width: 7vw;
+    }
+
+    .exp-bottom{
+        height: 60vh;
+    }
+}
