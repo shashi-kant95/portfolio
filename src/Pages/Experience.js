@@ -18,7 +18,7 @@ function Experience() {
           </div>
           
           <div className='neu-btn neu-btn-2 df' style={{ width: '10vw', height:'8vh', flexDirection:'column' }}>
-          <div className='f3 text-shadow'>2.10 +</div>
+          <div className='f3 text-shadow'>3 +</div>
             <br/>
             <div className='f1 df'>Years of experience</div>
 
