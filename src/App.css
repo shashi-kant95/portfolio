@@ -99,8 +99,9 @@ body {
   }
 
   .profile-image {
-    width: 40vw !important;
-    height: 40vw !important;
+    width: 30vw !important;
+    height: 30vw !important;
+    margin-bottom: -5vh !important;
   }
 
   .education {
