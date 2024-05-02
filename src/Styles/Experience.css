@@ -1,9 +1,9 @@
 .exp-top {
-    height: 30vh;
+    height: auto;
 }
 
 .left-exp {
-    width: 39vw;
+    width: 40vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 }
 
 .exp-bottom {
-    height: 60vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -25,6 +25,60 @@
     width: 100%;
     height: 100%;
     justify-content: space-evenly !important;
+}
+
+.small-blocks {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3vh;
+}
+
+.small-block-child {
+    width: 30%;
+    height: 8vh;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.c-details {
+    display: flex;
+    justify-content: unset !important;
+    width: 100%;
+    height: 10vh;
+    padding: 3vh;
+}
+
+.no-block {
+    width: 20%;
+    opacity: 0.2;
+    font-size: 3rem;
+    border-right: solid #646a649e 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ex-c-detils {
+    width: 80%;
+    margin-left: 5%;
+
+}
+
+.center-container {
+    text-align: center;
+    width: 100%;
+    /* Adjust this width based on your layout */
+    margin: 0 auto;
+    /* Centers the container horizontally */
+    padding-top: 3px;
+}
+
+.centered-text {
+    display: inline-block;
+    white-space: normal;
+    /* Allows text to wrap to the next line */
 }
 
 
@@ -39,22 +93,40 @@
     }
 
     .neu-btn-2 {
-        width: 20vw !important;
+        width: 100% !important;
+        height: 10vh !important;
     }
 
     .left-exp {
-        width: 70vw;
+        width: 90vw;
+        flex-direction: row !important;
+        display: flex;
     }
 
     .exp-top {
-        height: 25vh;
+        height: 40vh;
     }
 
     .chart--item {
         width: 7vw;
     }
 
-    .exp-bottom{
-        height: 60vh;
+    .exp-bottom {
+        height: 30vh;
+        margin-top: 50vh;
+    }
+
+    .small-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block-details {
+        margin-top: 3vh;
+    }
+
+    .mob-exp{
+        overflow: scroll;
+        height: 90vh;
     }
 }

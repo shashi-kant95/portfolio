@@ -1,4 +1,4 @@
-import React ,{useState} from 'react'
+import React, { useState } from 'react'
 import '../Styles/Card.css'
 
 function Card(props) {
@@ -6,27 +6,33 @@ function Card(props) {
   // const [projectDetails , setProjectDetails] = useState(props.preview);
   let projectDet = props.details;
 
-  
+  console.log(props.isPersonal);
+
+
 
 
   return (
-    <div className="card" 
-    // onMouseOver={()=>{projectDet = props.details}} 
-    // onMouseOut={()=>{projectDet = props.preview} }
-    >
-      
-      
+    <>
+      {props.isPersonal && <div className='card card1'>
+
+        <div className='p-box'>
+          <div className='f2 p1'>{projectDet}
+          </div>
+        </div>
+      </div>
+      }
+
+      {!props.isPersonal && <div className='card'>
+
         <div className='box'>
-            {/* <div className='content'> */}
-            <div className='f2 p1'>{projectDet}
-              </div>
-              <h2>{props.pno}</h2>
-            {/* </div> */}
-        
-       </div>
-      
-    
-    </div>    
+          <div className='f2 p1'>{projectDet}
+          </div>
+          <h2>{props.pno}</h2>
+
+        </div>
+      </div>}
+    </>
+
   )
 }
 

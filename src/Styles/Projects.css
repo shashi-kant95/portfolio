@@ -1,19 +1,39 @@
+.ofc-project{
+    width: 100%;
+    border-right: solid gray 1px;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* flex-wrap: wrap; */
+}
+
+.per-project{
+    width: 30%;
+    border-right: solid gray 1px;
+    height: 100vh;
+    overflow: scroll;
+    padding: 1%;
+    /* flex-wrap: wrap; */
+}
+
+
+
 @media screen and (max-width:768px) {
     .card{
-        width: 90vw;
-        height: 60vw;
-        padding: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 3vh 5vh;
+        width: 85vw;
+        height: 65vw;
+    }
+
+
+    .card:first-of-type{
+        height: 80vw !important;
     }
 
     .box{
         display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4vw;
+    /* padding: 4vw; */
     }
 
     .card:hover .box{
@@ -21,6 +41,20 @@
     }
     .card:hover h2{
     top: -20px;
+    }
+
+    .project{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0 !important;
+        border: unset;
+    }
+
+    .ofc-project{
+        width: 100%;
+        border: unset;
+        width: 100%;
     }
 
 }

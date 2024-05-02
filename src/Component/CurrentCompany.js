@@ -1,11 +1,12 @@
 import React from 'react'
+import { currentCompanyName, currentRole } from '../Shared/Constant'
 
 function CurrentCompany() {
   return (
-    <div className='neu-btn f1 curr-compamy' style={{width:'28vw', height:'10vh',marginTop:'5vh'}}>
-       Current Company: Kantar Analytics Practice, Bangalore <br/>
- Designation: Software Developer <br/>
- Duration : November 2019 to Present
+    <div className='frame f1' style={{ width: '100%', height: '10vh', marginTop: '5vh', padding:'10px' }}>
+      Current Company: {currentCompanyName}<br />
+      Designation: {currentRole} <br />
+      Duration : Febuaray 2023 to Present
     </div>
   )
 }

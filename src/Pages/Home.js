@@ -4,6 +4,10 @@ import CurrentCompany from '../Component/CurrentCompany'
 import HomeDetails from '../Component/HomeDetails'
 import ProfileImage from '../Component/ProfileImage'
 import '../Styles/home.css'
+import { Languages } from '../Shared/Constant'
+import Buttons from '../Component/Buttons'
+// import Skills from '../Component/Skills'
+
 
 function Home() {
     return (
@@ -12,8 +16,12 @@ function Home() {
                 <div className='mob-profile'>
                     <ProfileImage />
                 </div>
-                
+
                 <HomeDetails />
+
+            </div>
+            {/* <Skills/> */}
+            <div className='dfc'>
                 
             </div>
             <div className='bottom-home-cont'>

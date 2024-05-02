@@ -20,6 +20,7 @@ function App() {
                 <div className='mob-navbaar'>
                     <MobNavBar />
                 </div>
+                <div className='home-right'>
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/projects' element={<Projects />} />
@@ -28,6 +29,7 @@ function App() {
                     <Route path='/contact' element={<Contact />} />
                     <Route path='/education' element={<Education />} />
                 </Routes>
+                </div>
             </BrowserRouter>
         </div>
     )

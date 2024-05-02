@@ -151,6 +151,9 @@
   .submitBtn .neu-btn {
     width: 15vw !important;
     height: 10vw !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .submitBtn .logos {
@@ -178,5 +181,30 @@
     height: 60%;
     width: 60%;
   }
+  .top-home-cont .neu-btn {
+    width: 50vw !important;
+    font-size: 15px;
+  }
+
+  .bottom-home-cont .frame{
+    width: 90vw;
+    font-size: 15px;
+  }
+
+  .bottom-home-cont .neu-btn{
+    width: 10vw!important;
+    height: 10vw!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bottom-home-cont .logos {
+    height: 5vw!important;
+    width: 5vw!important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* color: red; */
+}
 
 }
