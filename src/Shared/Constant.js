@@ -20,7 +20,7 @@ export const oldCompanyHistory = [
     {
         name: 'Fidelity National Financial India',
         designation: 'Software Engineer',
-        startDate: 'November 2019',
+        startDate: 'February 2023',
         location: 'Bangalore',
         isCurrentCompany : true,
         id : 2

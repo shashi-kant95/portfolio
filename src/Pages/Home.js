@@ -19,12 +19,18 @@ function Home() {
                 <HomeDetails />
 
             </div>
+            {/* <div className='home-boy-img-p'>
+            <div className='home-boy-img'>
+
+            </div>
+            </div> */}
             <div className='dfc'>
                 
             </div>
             <div className='bottom-home-cont'>
                 <ContactOptions />
             </div>
+           
         </div>
     )
 }
