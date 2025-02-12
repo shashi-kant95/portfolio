@@ -63,6 +63,27 @@ body {
   cursor: not-allowed;
 }
 
+.bodycard-header{
+  border-bottom: solid 1px gray;
+    padding-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.bodycard-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bodycard-bg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../public/tools.webp');
+}
+
 @media screen and (max-width:768px) {
   .dp {
     width: 100vw;

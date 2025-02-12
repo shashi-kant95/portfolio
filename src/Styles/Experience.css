@@ -17,14 +17,17 @@
 }
 
 .exp-bottom {
-    height: 40vh;
+    height: 100%;
     width: 100%;
+    padding-top: 5vh;
 }
 
 .exp-bottom-left {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    justify-content: space-evenly !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap;
+    gap: 4vh;
 }
 
 .small-blocks {
@@ -82,6 +85,7 @@
 }
 
 
+
 @media screen and (max-width:768px) {
 
     .experience {
@@ -114,6 +118,11 @@
     .exp-bottom {
         height: 30vh;
         margin-top: 50vh;
+    }
+
+    .exp-bottom-left{
+        width: 90vw;
+        margin-bottom: 14vh;
     }
 
     .small-blocks {

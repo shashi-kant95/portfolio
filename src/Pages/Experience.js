@@ -3,11 +3,12 @@ import ProgressBar from '../Component/ProgressBar'
 import '../Styles/Experience.css'
 import CurrentCompany from '../Component/CurrentCompany'
 import { currentCompanyName, currentRole, currentLocation, oldCompanyHistory } from '../Shared/Constant'
+import BodyCard from '../Component/BodyCard'
 
 
 function Experience() {
   return (
-    <div className='dp experience df' style={{ flexDirection: 'column' }}>
+    <div className='dp experience' style={{ flexDirection: 'column' }}>
       <div className='f4 df text-shadow'>ABOUT ME</div>
       <div className='mob-exp'>
         <div className='exp-top df'>
@@ -54,14 +55,21 @@ function Experience() {
             </div>
           </div>
         </div>
-        <div className='exp-bottom'>
+        <div className='exp-bottom df'>
           <div className='exp-bottom-left df'>
-            <ProgressBar percent="90%" title='React JS' />
+            {/* <ProgressBar percent="90%" title='React JS' />
             <ProgressBar percent="90%" title='Javascript' />
             <ProgressBar percent="90%" title='HTML' />
             <ProgressBar percent="80%" title='CSS' />
             <ProgressBar percent="80%" title='.Net Core' />
-            <ProgressBar percent="80%" title='MS SQL' />
+            <ProgressBar percent="80%" title='MS SQL' /> */}
+
+            <BodyCard header={'Frontend'} skills={['React', 'Javascript', 'Angular', 'Typescript', 'HTML/CSS']}/>
+            <BodyCard header={'Backend'} skills={['.Net core','.Net Framework', 'C#', 'MSSQL', 'EF Core']}/>
+            <BodyCard header={'DevOps'} skills={['AWS', 'Azure', 'Lamda', 'CI/CD', 'Git']}/>
+            <BodyCard header={'Tools'} skills={['Visual Studio', 'VS Code', 'Postman', 'SVN', 'SSMS']}/>
+
+
 
           </div>
         </div>
