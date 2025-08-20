@@ -16,6 +16,7 @@ function BodyCard({ header, skills, className }) {
 
         </div>
     )
+    
 }
 
 export default BodyCard
